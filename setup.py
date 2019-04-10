@@ -12,18 +12,16 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "mypackage"
-DESCRIPTION = "My short description for my project."
-URL = "https://github.com/me/myproject"
-EMAIL = "me@example.com"
-AUTHOR = "Awesome Soul"
-REQUIRES_PYTHON = ">=3.6.0"
-VERSION = None
+NAME = "scratchstats"
+DESCRIPTION = "Simple importable statistics"
+URL = "https://github.com/loftusa/scratchstats"
+EMAIL = "aloftus2@jhu.edu"
+AUTHOR = "Alex Loftus"
+REQUIRES_PYTHON = ">=3.7.0"
+VERSION = "0.0.0.1"
 
 # What packages are required for this module to be executed?
-REQUIRED = [
-    # 'requests', 'maya', 'records',
-]
+REQUIRED = ["numpy"]
 
 # What packages are optional?
 EXTRAS = {
@@ -120,6 +118,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
