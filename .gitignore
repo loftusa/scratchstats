@@ -3,3 +3,4 @@ env
 *.egg
 *__pycache__
 scratchstats.egg-info
+.pytest_cache
